@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f50;
+}
+
+main {
+  max-width: 900;
+}
+
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -25,9 +41,6 @@ p {
     padding: 10px;
 }
 
-main{
-    max-width: 840px;
-}
 
 aside {
     width: 20rem
@@ -51,7 +64,15 @@ aside {
   p { padding: 0;}
 
 footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
+    margin: 10 px auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #bbb;
+    
+  }
+
+  footer p {
     text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 1);
   }

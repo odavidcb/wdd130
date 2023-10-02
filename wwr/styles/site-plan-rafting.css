@@ -1,21 +1,22 @@
-@import 'https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'
+ @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rock+Salt&display=swap';
+
 root {
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX;
+    --primary-color: 5c9ead;
+    --secondary-color: ffffff;
+    --accent1-color: 326273;
+    --accent2-color:e39774;
   
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Roboto', serif;
   
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color:bec5ad;
+    --nav-link-color:a4b494;
+    --nav-hover-link-color:519872;
+    --nav-hover-background-color:3b5249;
   }
 
   body {
-    f______: var(--paragraph-font);
+    font-family: var(--paragraph-font);
     m______: ______;
     p______: ______;
   }
