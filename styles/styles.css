@@ -32,7 +32,10 @@ nav a {
 
 nav a:hover{
   background-color: #333;
+h1
+{
 
+}
 
 }
 main {
@@ -46,13 +49,18 @@ main img {
 }
 
 aside {
-  width: 200px;
+  
   text-align: center;
 }
 
 aside img {
   width: 200px;
   height: auto;
+}
+aside h2{
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 li {
   margin-bottom: 1rem;
@@ -72,6 +80,12 @@ footer p {
 }
 
   /* Class Selector */
+  
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 3 fr;
+    grid-gap: 1rem;
+  }
   .box{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
