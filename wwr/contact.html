@@ -16,20 +16,23 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="trips.html">Trips</a>
-        <a href="contct.html">Contact.</a>
+        <a href="contact.html">Contact Us</a>
     </nav>   
     </header>
     <main>
         
      <h1>Contact Us</h1>
-
-     <table>
+      <img src="images/photo-1542596594-649edbc13630.avif" alt="Happy employee women">
+     <img src="images/rafting21_600.png" alt="Happy employee in action">
+     <img src="images/photo-1506277886164-e25aa3f4ef7f.avif" alt="">
+      <table>
         <tr>
             <td></td>
             <td></td>
         </tr>
      </table>
      <p>White Water Adventures is a white water rafting company providing...</p>
+     <h2>Send Us a Message</h2>
      <form action="">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" required>
@@ -37,11 +40,27 @@
         <input type="email" name="email" id="email" required>
         <label for="phone">Phone:</label>
         <input type="tel" name="phone" id="phone" required>
+        <fieldset>
+          <legend>Question</legend>
+          <label for="purpose">The purpose of the message: </label>  
+          <select id="purpose" name="purpose">
+            <option value="generalInquire">General Inquiry</option>
+            <option value="reservationQuestion">Reservation Question</option>
+            <option value="websiteSuggestion">Website Suggestion</option>  
+          </select>     
+        </fieldset>
         <label for="message">Message:</label>
         <textarea name="massage" id="message" cols="30" rows="10" required></textarea>
         <input type="submit" value="Send">
-    </form>
-    <h2>Send Us a Message</h2>
+          <fieldset>
+            <legend> Please subscribe me to the monthly newsletter </legend>
+            <label for="subscribe" name="subscribe" id="subscribe" >Email address</label>
+            <input type="subscribe" name="subscribe" id="subscribe" required>
+            <button type="submit">Subscribe</button>
+          </fieldset>
+          
+      </form>
+   
     <p>White Water Rafting
       Av. Potosi # 888 Tarija- Cercado
     </p>
